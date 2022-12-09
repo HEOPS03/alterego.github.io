@@ -1,0 +1,182 @@
+﻿body
+{
+    position:relative;
+    background-color:black;
+    margin:0;
+    width:100%;
+    top:0;
+    display:flex;
+}
+
+.container {
+    display:flex;
+    flex-direction:column;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.main {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom:15%;
+}
+    
+}
+
+.shade {
+    width: 90%;
+    height: 25%;
+    position: absolute;
+    left: 5%;
+}
+
+.head {
+    position: absolute;
+    top: 80%;
+    height: 10%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.year {
+    font-family: 'GestaltMedium';
+    position: absolute;
+    top: -700%;
+    left: 10%;
+    color: white;
+    font-size:64px;
+}
+
+.virtwin {
+    font-family: 'GestaltMedium';
+    position: absolute;
+    color: white;
+    left: 10%;
+    top: -400%;
+}
+.name {
+    font-family: 'GestaltMedium';
+    position: absolute;
+    top: 0%;
+    left: 5%;
+    color: white;
+}
+
+.menu {
+    top: 20%;
+    right: 5%;
+    width: 2%;
+    position: absolute;
+}
+.about {
+    position: absolute;
+    top: 100%;
+    width: 90%;
+    height: 300%;
+    margin: 0 auto;
+}
+.H_and_P{
+    display:flex;
+    flex-direction:row;
+}
+
+.videos{
+    display:flex;
+    flex-direction:row;
+}
+
+.miniVideo{
+    width:32%;
+    margin:1%;
+}
+.about1 {
+    margin-top: 0%;
+    background-color: black;
+    width: 90%;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
+    margin-bottom:15%;
+}
+
+.about1h1 {
+    color: white;
+    font-family: 'GestaltMedium';
+    margin-left: 10%;
+}
+
+.about1p1 {
+    color: white;
+    font-family: 'GestaltMedium';
+    font-size: 24px;
+    margin-left: 20%;
+}
+
+.img1{
+    width:50%;
+}
+.about2 {
+    margin-top: 0%;
+    
+    top: 50%;
+    background-color: black;
+    width: 90%;
+    height: 50%;
+    margin: auto;
+}
+
+.about3 {
+    margin-top: 0%;
+    
+    top: 100%;
+    background-color: black;
+    width: 90%;
+    height: 50%;
+    margin: auto;
+}
+
+.mainVideo {
+    top: 0;
+    width: 100%;
+    
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    position: relative;
+    width: 50vh;
+    margin: 5%;
+}
+
+.nameInContact {
+    font-family: 'GestaltMedium';
+    top: 0%;
+    left: 5%;
+    color: white;
+    width: 100%;
+}
+
+.contactText {
+    color: white;
+    line-height:1.5;
+    font-family: 'GestaltMedium';
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    margin: 2%;
+    width:auto;
+}
